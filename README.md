@@ -18,4 +18,8 @@ Key requirement: company needs documentation that salaried employees did or did 
 - Bootstrap -> formatting
 
 ## Refactor TODOS:
-- Refactor user association integration test in post_spec
+
+## Built with:
+- Rails 5
+- RSpec
+- Capybara
