@@ -18,6 +18,7 @@ Key requirement: company needs documentation that salaried employees did or did 
 - Bootstrap -> formatting
 
 ## Refactor TODOS:
+- Refactor posts/form for admin user with status 
 
 ## Built with:
 - Rails 5
