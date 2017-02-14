@@ -50,7 +50,8 @@ describe 'navigate' do
   describe 'delete' do
     it 'can be deleted' do
       @post = FactoryGirl.create(:post)
-      
+
+      #TODO refactor
       @post.update(user_id: @user.id)
       visit posts_path
 
