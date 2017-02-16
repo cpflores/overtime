@@ -6,21 +6,33 @@ Key requirement: company needs documentation that salaried employees did or did 
 - Post -> date:date rationale:text
 - User -> Devise
 - AdminUser -> STI
+- Audit log
 
 ## Features
 - Approval workflow
 - SMS sending -> link to approval or overtime input
 - Administrate admin dashboard
+- Block non admin and guest users
 - Email summary to managers for approval
 - Needs to be documented if employee did not log overtime
 
 ## UI
 - Bootstrap -> formatting
+- Icons from glyphicons
+- Update the styles for forms
 
-## Refactor TODOS:
-- Refactor posts/form for admin user with status 
+## TODOS:
+- Integrate validation for phone attr in User
 
 ## Built with:
 - Rails 5
+- Bootstrap 3
+- Gritter
 - RSpec
 - Capybara
+- FactoryGirl
+- Devise
+- Twilio
+- Administrate
+- Bourbon
+- Pundit
