@@ -23,7 +23,7 @@ puts "1 Admin User created"
 
 100.times do |post|
   Post.create!(date: Date.today,
-               rationale: "#{post} rationale content",
+               rationale: "#{post} rationale content Lomo tattooed tilde, ramps hot chicken hashtag squid. Chicharrones XOXO cold-pressed, flexitarian paleo authentic celiac pickled kickstarter neutra coloring book flannel. Ugh fashion axe seitan put a bird on it, flannel raw denim jean shorts selfies. Direct trade literally intelligentsia, kinfolk crucifix aesthetic squid health goth etsy. Tote bag jean shorts fam letterpress pitchfork, subway tile scenester disrupt dreamcatcher plaid retro vaporware photo booth ethical bushwick. Tousled pabst distillery mustache letterpress taxidermy. Sartorial lyft four loko, farm-to-table disrupt unicorn pug man braid selvage tofu.",
                user_id: @user.id,
                overtime_request: 2.5)
 end
