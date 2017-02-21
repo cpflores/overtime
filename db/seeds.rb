@@ -21,6 +21,12 @@ AdminUser.create(email: "admin@test.com",
                  phone: "4143644544")
 puts "1 Admin User created"
 
+AuditLog.create!(user_id: @user.id, status: 0, start_date: (Date.today - 6.days))
+AuditLog.create!(user_id: @user.id, status: 0, start_date: (Date.today - 13.days))
+AuditLog.create!(user_id: @user.id, status: 0, start_date: (Date.today - 20.days))
+
+puts "3 audit logs have been created"
+
 100.times do |post|
   Post.create!(date: Date.today,
                rationale: "#{post} rationale content Lomo tattooed tilde, ramps hot chicken hashtag squid. Chicharrones XOXO cold-pressed, flexitarian paleo authentic celiac pickled kickstarter neutra coloring book flannel. Ugh fashion axe seitan put a bird on it, flannel raw denim jean shorts selfies. Direct trade literally intelligentsia, kinfolk crucifix aesthetic squid health goth etsy. Tote bag jean shorts fam letterpress pitchfork, subway tile scenester disrupt dreamcatcher plaid retro vaporware photo booth ethical bushwick. Tousled pabst distillery mustache letterpress taxidermy. Sartorial lyft four loko, farm-to-table disrupt unicorn pug man braid selvage tofu.",
@@ -29,9 +35,3 @@ puts "1 Admin User created"
 end
 
 puts "100 Posts have been created"
-
-AuditLog.create!(user_id: @user.id, status: 0, start_date: (Date.today - 6.days))
-AuditLog.create!(user_id: @user.id, status: 0, start_date: (Date.today - 13.days))
-AuditLog.create!(user_id: @user.id, status: 0, start_date: (Date.today - 20.days))
-
-puts "3 audit logs have been created"
