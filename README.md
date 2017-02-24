@@ -17,6 +17,9 @@ Key requirement: company needs documentation that salaried employees did or did 
 - Needs to be documented if employee did not log overtime
 - Create audit log for each text message
 - Update end_date when confirmed
+- Update audit log status when overtime status has been rejected
+- Mobile friendly buttons with timestamp on employee homepage, with better sort order
+- No unnecessary nav for admins
 
 ## UI
 - Bootstrap -> formatting
@@ -32,7 +35,7 @@ Key requirement: company needs documentation that salaried employees did or did 
 - Gritter
 - RSpec
 - Capybara
-- FactoryGirl
+- Factory Girl
 - Devise
 - Twilio
 - Administrate
@@ -40,3 +43,5 @@ Key requirement: company needs documentation that salaried employees did or did 
 - Pundit
 - Heroku
 - Spark Post
+- Honey Badger
+- New Relic
