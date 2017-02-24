@@ -13,11 +13,11 @@
                     phone: "4143644544")
 puts "1 employee created"
 
-AdminUser.create(email: "admin@test.com",
+AdminUser.create(email: "chadwickflores@gmail.com",
                  password: "asdfasdf",
                  password_confirmation: "asdfasdf",
-                 first_name: "Admin",
-                 last_name: "Name",
+                 first_name: "Chad",
+                 last_name: "Flores",
                  phone: "4143644544")
 puts "1 Admin User created"
 
