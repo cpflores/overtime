@@ -43,5 +43,5 @@ Key requirement: company needs documentation that salaried employees did or did 
 - Pundit
 - Heroku
 - Spark Post
-- Honey Badger
+- Honeybadger
 - New Relic
