@@ -15,6 +15,8 @@ Key requirement: company needs documentation that salaried employees did or did 
 - Block non admin and guest users
 - Email summary to managers for approval
 - Needs to be documented if employee did not log overtime
+- Create audit log for each text message
+- Update end_date when confirmed
 
 ## UI
 - Bootstrap -> formatting
@@ -36,3 +38,5 @@ Key requirement: company needs documentation that salaried employees did or did 
 - Administrate
 - Bourbon
 - Pundit
+- Heroku
+- Spark Post
