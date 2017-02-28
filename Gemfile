@@ -21,6 +21,7 @@ gem 'bourbon', '~> 4.3', '>= 4.3.2'
 gem 'pundit', '~> 1.1'
 gem 'twilio-ruby', '~> 4.13'
 gem 'kaminari'
+gem 'newrelic_rpm'
 
 group :development, :test do
   gem 'byebug', platform: :mri
